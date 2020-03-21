@@ -31,6 +31,8 @@ public class Part {
 	@Column(name = "pdesc")
 	private String partDesc;
 
+	
+	//Integration Module
 	@ManyToOne
 	@JoinColumn(name = "uomIdFK")
 	private UomType uomOb;

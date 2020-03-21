@@ -29,6 +29,8 @@ public class SaleOrder {
 	@Column(name = "sdesc")
 	private String saleDesc;
 
+	
+	//Integration Module
 	@ManyToOne
 	@JoinColumn(name = "shipIdFK")
 	private ShipmentType shipOb;
